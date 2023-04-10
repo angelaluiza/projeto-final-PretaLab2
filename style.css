@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: sienna;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: azure;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 130vh;
+    display: flex;
+    background-color: bisque;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    color: sienna;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+
+.idade-estado {
+    color: rgb(48, 34, 24);
+    height: 60px;
+    font-size: 25px;
+}
+
+
+.profissao {
+    color: sienna;
+    height: 60px;
+    font-size: 30px;
+
+}
+
+.texto-sobre {
+    font-size: 15px; 
+    line-height: 32px;
+ 
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: sienna;
+}
+
+.lista-titulo {
+    font-size: 20px;
+    color: rgb(241, 165, 110);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.titulo-base {
+    font-size: 20px;
+    color: rgb(241, 165, 110);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.texto-projetos {
+    font-size: 15px; 
+    line-height: 32px;
+    margin-inline-end: 10px;
+}
+
+.rodape {
+    background-color: sienna;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.conato-final {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.lista-rodape li{
+    color: azure;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icone {
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.link-icone {
+    color: white;
+    text-decoration: inherit;
+}
