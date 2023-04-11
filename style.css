@@ -130,7 +130,7 @@ li {
 
 .rodape {
     background-color: sienna;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     padding-right: 10px;
