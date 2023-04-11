@@ -17,7 +17,7 @@ li {
     display: flex;
     position: fixed;
     width: 100%;
-    height: 20px;
+    height: 10gitpx;
     padding: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -27,7 +27,7 @@ li {
 .header-menu nav {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 80%;
 }
 
 .lista-menu {
